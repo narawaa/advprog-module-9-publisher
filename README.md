@@ -13,3 +13,7 @@ URL amqp://guest:guest@localhost:5672 yang digunakan di program publisher sama d
 
 #### Running RabbitMQ
 ![image](images/result-1.png)
+
+#### Sending and processing event
+![image2](images/result-2.png)
+![image3](images/result-3.png)
