@@ -17,3 +17,10 @@ URL amqp://guest:guest@localhost:5672 yang digunakan di program publisher sama d
 #### Sending and processing event
 ![image2](images/result-2.png)
 ![image3](images/result-3.png)
+
+Publisher dan subscriber sama-sama terhubung ke server RabbitMQ yang sama. Jadi, setiap kali publisher mengirimkan data, subscriber akan langsung menerima pesan tersebut.
+
+#### Monitoring chart based on publisher
+![image4](images/result-4.png)
+
+Saat publisher dijalankan, jumlah pesan yang dikirim ke message broker meningkat. Lonjakan (spike) ini menunjukkan adanya peningkatan tiba-tiba dalam kecepatan pengiriman pesan dari publisher ke broker, yang kemudian diteruskan ke subscriber.
